@@ -1,0 +1,38 @@
+body {
+  font-family:  "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+button {
+  border: none;
+  color: #0A93F6;
+  background: transparent;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+input {
+  width: 100%;
+  border: solid 1px #E5E5EB;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#log {
+  width: 70vw;
+  height: 50vh;
+  margin: 0 auto;
+  border: 1px solid #E5E5EB;
+  border-radius: 7px;
+  padding: .5 em;
+  overflow-y: scroll;
+}
+
+#controls {
+  display: flex;
+
+  width: 700px;
+  margin: 40px auto;
+}
